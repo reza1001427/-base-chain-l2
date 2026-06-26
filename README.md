@@ -1,15 +1,12 @@
 # -base-chain-l2
 I created tis repo to add some new thoughts on crypto_l2 chains.
-# NFT Minting Base (ERC-721)
+# Web3 Contract Interaction Script
 
-Simple NFT minting smart contract using Hardhat + OpenZeppelin.
+## Setup
+pip install -r requirements.txt
 
-## Features
-- ERC-721 NFT
-- Mint function (owner only)
-- Token URI support
-- Hardhat deployment setup
+## Run
+python main.py
 
-## Install
-```bash
-npm install
+## Warning
+Never expose your private key.
